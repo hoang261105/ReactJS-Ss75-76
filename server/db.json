@@ -1,0 +1,57 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "nameProduct": "Bánh mì",
+      "img": "https://banhmibahuynh.vn/wp-content/uploads/2022/11/Banh-mi-Ba-Huynh-o-moi-1.webp",
+      "quantity": 200,
+      "price": 20000,
+      "description": "Bánh mì Việt Nam ngon số 1 thế giới"
+    },
+    {
+      "id": 2,
+      "nameProduct": "Phở bò",
+      "img": "https://cdn.tgdd.vn/Files/2022/04/05/1424088/cach-nau-pho-bo-tai-gau-ngon-tuyet-dai-ca-nha-202204051319587690.jpg",
+      "quantity": 300,
+      "price": 30000,
+      "description": "Phở bò Việt Nam ngon số 1 thế giới"
+    },
+    {
+      "id": 3,
+      "nameProduct": "Mì quảng",
+      "img": "https://statics.vinpearl.com/mi-quang-0_1628500594.jpg",
+      "quantity": 200,
+      "price": 40000,
+      "description": "Mì quảng Việt Nam ngon số 1 thế giới"
+    }
+  ],
+  "carts": [
+    {
+      "productId": 2,
+      "nameProduct": "Phở bò",
+      "img": "https://cdn.tgdd.vn/Files/2022/04/05/1424088/cach-nau-pho-bo-tai-gau-ngon-tuyet-dai-ca-nha-202204051319587690.jpg",
+      "description": "Phở bò Việt Nam ngon số 1 thế giới",
+      "price": 30000,
+      "quantity": 9,
+      "id": 2
+    },
+    {
+      "productId": 3,
+      "nameProduct": "Mì quảng",
+      "img": "https://statics.vinpearl.com/mi-quang-0_1628500594.jpg",
+      "description": "Mì quảng Việt Nam ngon số 1 thế giới",
+      "price": 40000,
+      "quantity": 88,
+      "id": 3
+    },
+    {
+      "productId": 1,
+      "nameProduct": "Bánh mì",
+      "img": "https://banhmibahuynh.vn/wp-content/uploads/2022/11/Banh-mi-Ba-Huynh-o-moi-1.webp",
+      "description": "Bánh mì Việt Nam ngon số 1 thế giới",
+      "price": 20000,
+      "quantity": 6,
+      "id": 4
+    }
+  ]
+}

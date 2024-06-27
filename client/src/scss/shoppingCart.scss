@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    .left-container{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        padding: 20px;
+        .products{  
+            padding: 40px;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            .product{
+                height: auto;
+                display: flex;
+                gap: 10px;
+                border: 0.5px solid black;
+                .image img{
+                    width: 90px;
+                    height: 90px;
+                    padding: 10px;
+                }
+                .information{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+                .price-quantity{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    input{
+                        width: 100%;
+                        height: 30px;
+                        font-size: 16px;
+                    }
+                }
+                .addCart button{
+                    width: 100%;
+                    height: 30px;
+                }
+            }
+        }
+    }
+    .right-container{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid black;
+        padding: 20px;
+        .list-product{
+            padding: 40px;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .cart{
+                height: auto;
+                display: flex;
+                gap: 10px;
+                border: 0.5px solid black;
+                .image img{
+                    width: 100px;
+                    height: 100px;
+                    padding: 10px;
+                }
+                .infor{
+                    width: 40%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 10px;
+                    input{
+                        width: 60px;
+                        height: 30px;
+                    }
+                }
+                .price{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding: 10px;
+                    button{
+                        width: 70px;
+                        height: 30px;
+                    }
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .underline{
+            width: 100%;
+            border: 0.5px solid rgba(0, 0, 0, 0.304);
+        }
+        .total{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+    }
+
+}
